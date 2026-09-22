@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutdoorAdventure - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="left-side">
+        <div class="form-container">
+            
+            <div class="logo-area">
+                <div class="brand-name">Travel Trip</div>
+                <div class="tagline">Explore More. Experience Life.</div>
+            </div>
+
+            <div class="tab-buttons">
+                <button class="tab-btn active" id="signup-tab">Sign Up</button>
+                <button class="tab-btn" id="login-tab">Log In</button>
+            </div>
+
+            <h1 class="main-title" id="form-title">Begin Your Adventure</h1>
+
+            <div class="social-section" id="social-area">
+                <p class="section-label">Sign Up with Open account</p>
+                <div class="social-buttons">
+                    <button class="social-btn facebook-btn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </button>
+                    <button class="social-btn google-btn">G</button>
+                    <button class="social-btn">X</button>
+                </div>
+            </div>
+
+            <div class="divider" id="form-divider">or</div>
+
+            <form class="signup-form">
+                <div class="input-group" id="username-group">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter your username">
+                </div>
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email address">
+                </div>
+
+                <div class="input-group password-group">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password">
+                    <span class="eye-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                            <line x1="2" y1="2" x2="22" y2="22"></line>
+                        </svg>
+                    </span>
+                </div>
+
+                <div class="remember-me" id="remember-group">
+                    <input type="checkbox" id="remember" checked>
+                    <label for="remember">Remember me</label>
+                </div>
+
+                <div id="login-links" style="display: none; text-align: left; margin-bottom: 20px;">
+                    <a href="#" style="color: #1877f2; text-decoration: none; font-size: 0.85rem;">Forgotten password?</a>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submit-button">Let's Start</button>
+
+                <a href="#" id="create-account-link" class="secondary-btn" style="display: none;">Create new account</a>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="right-side">
+        <img src="beach.jpg" alt="Scenic Beach View">
+        <div class="overlay-content">
+            <h1>Explore the World,<br>Beyond Boundaries!</h1>
+            <button class="cta-button">Start Your Adventure Today!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
